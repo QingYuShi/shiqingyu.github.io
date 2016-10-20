@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{ font-size:12px; color:#666; }
+
+.header_t{ height:30px; border-bottom:#dfdfdf 1px solid; background:#f5f5f5; }
+.header_t .hdleft span{ color:#f76120; }
+.header_t .hdleft a{ margin-right:8px; line-height:30px; }
+.header strong{ display:inline-block; width:6px; height:3px; background:url(../images/sanjiao.png) no-repeat; margin:0 0 5px 8px; }
+.header_t .myphone i{ display:inline-block; width:10px; height:16px; background:url(../images/base.vdd88fa40.png) no-repeat 0 -136px; margin-bottom:-4px; margin-right:4px; }
+.header_t .myphone em{ font-style:normal; }
+.header_t .myphone{ position:relative;display:inline-block; }
+.header_t .hdthover{ position:absolute; top:30px; left:0; height:80px; width:150px; border:1px solid #2db8ad; background:#fff; display:none; z-index:9;}
+.header_t .myphone:hover .hdthover{ display:block; }
+.header_t .hdright li{ float:left; height:12px; border-left:1px solid #ddd; padding:0 12px; line-height:12px; position:relative; }
+.header_t .hdright p{ font-size:12px; color:#666; margin:1px 11px 0 0; }
+.header_t .hdright{ margin-top:10px; }
+.header_t .hdright b{ display:inline-block; width:13px; height:12px; background:url(../images/shopcar.png) no-repeat; }
+.header_t .hdright .hdthover{ top:20px; right:0; }
+.header_t .hdright li:hover .hdthover{ display:block; }
+.header_c{ height:60px; }
+.header_b .logo{ width:82px; height:54px; background:url(../images/base.vdd88fa40.png) no-repeat 0 -78px; text-indent:-9999px; margin:22px 10px 0 0; }
+.header_b .city h4{ font-size:17px; color:#000; }
+.header_b .city{ margin:30px 30px 0 0; }
+.header_b .city .citybox{ position:relative; width:58px; height:20px; border:1px solid #eee; text-align:center; line-height:20px; }
+.header_b .city span{ font-size:12px; color:#999; }
+.header_b .citybox:hover .hdthover{ display:block; }
+.header_b .txt input{ width:508px; height:40px; border:3px #2db8ad solid; border-right:none; }
+.header_b .txt{ position:relative; }
+.header_b .txtlist{ position:absolute; top:3px; left:3px; background:#fff; }
+.header_b .txtlist ul{  border:3px solid #2db8ad; border-top:none; display:none; background:#fff; margin-left:-3px; position:relative; z-index:8;}
+.header_b .txtlist li{ font-size:12px; color:#666; line-height:26px; text-align:center; }
+.header_b .txtlist p{ width:62px; height:40px; background:#fafafa; color:#666; border-right:#ddd; line-height:40px; text-align:center; }
+.header_b .txtlist:hover ul{ display:block; }
+.header_b .sbbtn{ width:82px; height:46px; background:#2db8ad; border:none; color:#fff; }
+.header_b .search{ margin-top:27px; }
+.header_b .search_b li{ margin-right:22px; float:left; }
+.header_b .serbtn li{ float:left; margin-left:10px; }
+.header_b .serbtn em{ display:block; width:34px; height:42px; background:url(../images/base.vdd88fa40.png) no-repeat -11px -30px; }
+.header_b .serbtn i{ display:block; width:60px; height:42px; background:url(../images/base.vdd88fa40.png) no-repeat -75px -30px; }
+.header_b .serbtn b{ display:block; width:36px; height:42px; background:url(../images/base.vdd88fa40.png) no-repeat -162px -30px; }
+.header_b .serbtn{ margin:28px 12px 0 0; }
+
+
+
+
+
+
+
+.regedit{ width:980px; height:580px; border:1px solid #ccc; margin:50px auto;}
+.rege_tit{ width:860px; height:36px; line-height:36px; margin:30px auto; border-bottom:1px solid #ccc; }
+.tit_btn .youxiang{ width:160px; height:36px; background: url(../images/3.jpg) no-repeat 40px center; color:#fff; font-size:14px; background-color:#1aa29e; text-indent:62px; margin-left:10px; margin-right:7px; position:relative; }
+.youxiang .i{ width:10px; height:5px; background: url(../images/7.png) no-repeat; position:absolute; left:74px; top:36px;}
+.tit_btn .shouji{ width:160px; height:36px; background: url(../images/4.png) no-repeat 40px center; font-size:14px; background-color:#e9f6f6; text-indent:62px; color:#2bb8aa; }
+.rege_tit .denglu{ color:#2bb8aa; font-size:14px;}
+.rege_tit p{ font-size:14px; }
+
+.tit_type{ width:480px; height:380px; margin-top:30px; margin-left:64px;}
+
+.tit_type span{ width:80px; height:36px; text-align:right;line-height:36px; margin-right:10px; margin-bottom:18px;}
+.tit_type  input{ width:256px; height:36px; border:1px solid #f7611e; margin-right:8px;}
+.qiangdu{ width:262px; height:20px; margin:5px 90px;}
+.qiangdu .qiangdu1{ width:85px; height:20px; margin-right:2px; background:#eee; line-height:20px; text-align:center; color:#fff; margin-top:5px; margin-bottom:5px; }
+.tit_type .p{ font-size:12px; width:120px; height:36px; line-height:36px; background:url(../images/1.png) no-repeat 0 center; text-indent:22px; color:#666;}
+.tit_type .xuankuang{ height:36px; line-height:36px;}
+.tit_type .xuankuang1{ width:72px; height:26px; background:url(../images/5.png) no-repeat 50px 0;}
+
+.tit_type .dingyue{ width:260px; font-size:12px; height:16px; margin-top:20px; margin-bottom:18px;}
+.dingyue .input{ width:16px; height:16px;}
+
+.tit_type .ver{ width:74px; height:36px;}
+.tit_type a{ font-size:12px; color:#2bb8aa;}
+
+.rege_foot{ width:190px; height:36px; background:#2bb8aa; font-size:14px; margin-top:px; margin-left:90px; line-height:36px; text-align:center; }
+.rege_foot a{ color:#fff;}
+.rege_footer{ margin-left:90px; margin-top:10px; font-size:12px; color:#2bb8aa;}
+
+
+
+
+.cellphonesignup{border:1px solid #e8e8e8;}
+.cellphonesignup .signupnav{height:36px;width:858px;border-bottom:1px solid #d9e8e8;margin:28px auto;}
+.cellphonesignup .email{width:161px;height:35px;border:1px solid #d9e8e8;background:#e9f6f6;border-radius:3px;margin-left:10px;}
+.cellphonesignup .email i{width:16px;height:12px;background:url(../images/signupemail.png) no-repeat;margin:11px 0 0 39px;}
+.cellphonesignup .email b{font-size:14px;color:#2bb8aa;margin:0 0 0 7px;line-height:35px;}
+.cellphonesignup .cellphone{width:161px;height:35px;border:1px solid #1aa29e;background:#1aa29e;border-radius:3px;margin-left:10px;position:relative;}
+.cellphonesignup .cellphone i{width:16px;height:12px;background:url(../images/signupcellphone.png) no-repeat;margin:11px 0 0 39px;}
+.cellphonesignup .cellphone b{font-size:14px;color:#fff;margin:0 0 0 7px;line-height:35px;}
+.cellphonesignup .cellphone .signupdown{width:10px;height:5px;background:url(../images/signupdown.png) no-repeat;position:absolute;left:74px;bottom:-5px;}
+.cellphonesignup .login i{font-size:14px;color:#000;margin-top:15px;font-style:normal;margin-right:5px;}
+.cellphonesignup .login a{font-size:14px;color:#2bb8aa;margin-top:15px;}
+.cellphonesignup .signupform{width:858px;margin:0 auto;height:355px;}
+.cellphonesignup .signupform span{float:left;width:70px;height:34px;text-align:right;font-size:14px;line-height:40px;}
+.cellphonesignup .signupform input{width:258px;height:34px;margin-left:11px;float:left;}
+.cellphonesignup .signupform .phonenumber i{width:17px;height:17px;background:url(../images/signupiconbg.png) no-repeat 0 -191px;margin:12px 5px 0 8px;}
+.cellphonesignup .signupform .phonenumber b{line-height:40px;font-weight:normal;color:#999;}
+.cellphonesignup .signupform .phonemessage{height:22px;;margin-bottom:2px;}
+.cellphonesignup .signupform .message{width:143px;height:22px;margin-left:81px}
+.cellphonesignup .passwordtype{margin-top:16px;}
+.cellphonesignup .passwordsafe i{display:block;width:85px;height:20px;background:#eeeeee;float:left;text-align:center;line-height:20px;color:#fff;font-style:normal;margin-right:2px;}
+.cellphonesignup .passwordsafe{height:20px;margin-left:82px;margin-top:5px;margin-bottom:4px;}
+.cellphonesignup .formsubmit{margin-left:70px;margin-top:16px;height:34px;}
+.cellphonesignup .signupsubmit{width:193px;height:37px;background:#2db9ab;color:#fff;font-size:14px;border:none;border-radius:3px;}
+.cellphonesignup .agreement{margin-left:81px;margin-top:5px;}
+.cellphonesignup .agreement a{color:#2bb8aa;}
+
+.shouji.on{ cursor:pointer;}
+.email.on{cursor:pointer;}
+.cellphonesignup{ display:none;}
+
+
+
+/*footer*/
+.footer{background:#f6f6f6;border-top:3px solid #3aa2a2;height:328px;margin-top:50px;}
+.footer .information{width:186px;}
+.footer .cooperation{width:186px;}
+.footer .company{width:186px;}
+.footer .userhelp{width:186px;}
+.footer .service{width:226px;border-right:1px dotted #a5a5a5;}
+.footer .information,.cooperation,.company,.userhelp,.service{float:left;border-left:1px dotted #a5a5a5;}
+.footer li{list-style:disc;margin-left:40px;font-size:12px;line-height:22px;}
+.footer h4{font-size:14px;margin:20px 0 12px 25px;}
+.footer .email{list-style:none;}
+.footer .service i{display:block;width:49px;height:49px;background:url(../images/footer_icon.png) no-repeat 0 -78px;margin-top:20px;margin-left:85px;}
+.footer .contact{margin-top:15px;margin-left:25px;}
+.footer .hotline{margin-top:20px;}
+.footer .contact p{line-height:18px;}
+.footer .contact a{color:#2bb8aa;}
+.footernav a{color:#555;}
+.footernav a.on{color:#FC6;}
+.footer .license{text-align:center;margin-top:30px;}
+.footer .license i{font-style:normal;color:#999;}
+.footer .footericon{position:absolute;left:50%;margin-left:-295px;margin-top:22px;}
+.footer .footericon b{display:block;float:left;margin-right:15px;}
+.footer .footericon .footericon_1{width:109px;height:38px;background:url(../images/footer_icon.png) no-repeat 0 -167px;}
+.footer .footericon .footericon_2{width:123px;height:38px;background:url(../images/footer_icon.png) no-repeat 0 0;}
+.footer .footericon .footericon_3{width:83px;height:38px;background:url(../images/footer_icon.png) no-repeat 0 -207px;}
+.footer .footericon .footericon_4{width:107px;height:38px;background:url(../images/footer_icon.png) no-repeat 0 -127px;}
+.footer .footericon .footericon_5{width:107px;height:38px;background:url(../images/footer_icon.png) no-repeat 0 -40px;}
+.foot_980{ width:980px; margin:0 auto; position:relative;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

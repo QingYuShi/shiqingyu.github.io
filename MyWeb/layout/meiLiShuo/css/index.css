@@ -1,0 +1,374 @@
+ *{ margin:0; padding:0; }
+li{ list-style:none; }
+img{ display:block; border:none;}
+a{ text-decoration:none; }
+.clearFix:after{ content:''; clear:both; display:block; }
+.clearFix{ zoom:1; }
+.fl{ float:left; }
+.fr{ float:right; }
+body{ color:#666; font-size:12px;  }
+
+
+/*login*/
+.login{
+	min-width:1220px;
+	height:38px;
+	border-bottom:1px solid #eee;
+	border-top:1px solid #eee;
+	background:#f5f5f5;}
+.login_list{
+	margin-right:-1px;
+	padding-top:10px;}
+.login_list li{
+	height:18px;
+	line-height:18px;
+	border-right:1px dashed #ccc;
+	padding:0 15px;}
+.login_list li a{#666;}
+.login_list li a i{
+	width:16px;
+	height:16px;
+	margin-right:4px;}
+.login_list .weixin a i{
+	background:url(../img/column1.png) no-repeat;}
+.login_list .qq a i{
+	background:url(../img/column2.png) no-repeat;}
+.login_list li a strong{
+	height:17px;
+	width:19px;
+	background:#666;
+	color:#fff;
+	line-height:15px;
+	text-align:center;
+	margin-left:6px;}
+.login_list .shopping a i{
+	background:url(../img/column3.png) no-repeat;
+	width:18px;}
+.login_list .flie a i{
+	background:url(../img/column4.png) no-repeat;
+	}
+.login_list .phone a i{
+	background:url(../img/column5.png) no-repeat;
+	}
+/*login结束*/
+/*logosearch*/
+.logosearch{height:60px;}
+.logo{
+	background:url(../img/logo.png) no-repeat;
+	width:106px;
+	height:36px;
+	text-indent:-9999px;
+	margin-top:15px;}
+.search{
+	background:url(../img/logosearch.png) no-repeat;
+	width:464px;
+	height:34px;
+	margin-left:254px;
+	margin-top:17px;}
+/*logosearch结束*/
+/*nav*/
+.nav{
+	background:#ff6599;
+	height:40px;
+	min-width:1220px;}
+.nav ul{
+	margin-left:126px;}
+.nav ul li a{
+	padding:0 14px;
+	display:block;
+	line-height:40px;
+	font-size:14px;
+	color:#fff;}
+.nav ul li .a1{ width:40px;}
+.nav ul li .a2{ width:80px;}
+.nav ul li a:hover{
+	background:#ed3577;}
+.select{
+	background:url(../img/nav1.png) no-repeat;
+	width:5px;
+	height:3px;;
+	margin-top:19px;
+	margin-left:5px;}
+/*nav结束*/
+/*sidebar*/
+.sidebar{
+	width:238px;
+	height:572px;
+	border:1px solid #ccc;
+	}
+.sidebar_list{
+	height:103px;
+	padding:12px 20px 0;
+	position:relative;
+	}
+.sidebar_list_tit{
+	background:url(../img/pic1.png) no-repeat;
+	padding-left:23px;
+	font-size:16px;
+	color:#f69;}
+.sidebar_list ul{
+	border-bottom:1px dashed #ccc;
+	margin-top:12px;
+	width:198px; height:72px;}
+.sidebar_list ul li{
+	margin-bottom:10px;
+	margin-right:14px;}	
+.sidebar_list ul .li1{ margin-right:0;}	
+.sidebar_list a{ color:#666;}
+
+.pic_r{
+	position:absolute;
+	right:16px;
+	top:50%;
+	margin-top:-7px;
+	font-size:14px;}
+.sidebar_list:hover{
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #fff;
+	width:198px;
+	height:102px;}
+.pos{
+	position:absolute;
+	left:238px;
+	top:-1px;
+	width:200px;
+	height:200px;
+	border:1px solid #ccc;
+	display:none;
+	z-index:-1;}	
+.sidebar_list:hover .pos{
+	display:block;}	
+/*sidebar结束*/
+/*banner*/
+.banner{width:960px;}
+.banner img{display:block;}
+.banner_top_left{
+	border-bottom:1px solid #ccc;
+	width:760px;}
+.banner_top_left img{
+	width:760px;
+	height:419px;}	
+.banner_top_right img{
+	width:200px;
+	height:139px;
+	border-bottom:1px solid #ccc;}
+.banner_bottom{
+	padding:10px 0 0 11px;}
+.banner_bottom img{
+	width:175px;
+	height:142px;
+	margin-right:10px;
+	border:1px solid #ccc;}
+.banner_bottom .w198{
+	width:198px;
+	margin-right:0;
+	margin-left:1px;}
+/*banner结束*/
+/*hd*/	
+.wel_list{
+	width:1224px;
+	padding-top:15px;}
+.wel_list li{
+	width:180px;
+	height:384px;
+	margin-right:24px;}
+.wel_list li p a{
+	line-height:18px;
+	margin-top:6px;
+	margin-bottom:7px;
+	display:block;}
+.wel_list li div{
+	border-bottom:1px dotted #ccc;
+	padding-bottom:12px;
+	margin-bottom:10px;}
+.wel_list li div span{
+	color:#f69;
+	font-size:16px;}
+.wel_list li div i{
+	font-style:normal;
+	font-size:9px;
+	text-decoration:line-through;}
+/*hd结束*/
+/*attr*/
+.attr_box{
+	border-bottom:1px solid #ccc;
+	height:611px;}
+.attr_box_left{
+	width:940px;}
+.attr_box_left li{
+	width:180px;
+	margin-right:5px;
+	margin-bottom:5px;
+	position:relative;}
+.attr_box_left img{
+	width:180px;
+	height:254px;}
+.attr_box_left p{
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:34px;
+	line-height:34px;
+	background:url(../img/pos_bg.png) repeat-x;
+	width:180px;
+	color:#fff;
+	text-align:center;}
+.attr_box_left dl{
+	padding-top:13px;
+	border-left:1px dotted #ccc;
+	padding-left:12px;
+	height:44px;
+    margin-right:30px;
+	margin-left:-1px;
+	}
+.attr_box_left dt{
+	line-height:44px;
+	margin-right:18px;}
+.attr_box_left dd{
+	width:244px;
+	line-height:22px;}	
+.attr_box_bottom .dl2{ margin-right:0; }
+
+.attr_box_right{
+	width:259px;
+	height:611px;
+	border-left:1px solid #ccc;}
+.attr_box_right_tit h4{
+	color:#666;
+	font-size:16px;}
+.attr_box_right_tit a{
+	color:#999;
+	font-size:14px;}
+.attr_box_right li{
+	height:48px;
+	border-bottom:1px dashed #ccc;
+	padding-top:14px;margin-bottom:-1px;
+	}
+.attr_box_right_img{
+	margin-right:12px;}	
+.attr_box_right img{
+	border:1px solid #ccc;}
+.attr_box_right ul{
+	margin-top:7px;
+	overflow:hidden;}
+.attr_box_right li div a{
+	margin-bottom:10px;
+	display:block;}
+	
+.pic img{
+	height:100px;
+	width:1200px;
+	margin:20px auto;}	
+	
+	
+/*bottom*/
+.bottom_list a{
+	font-size:14px;
+	color:#999;
+	}	
+.bottom_list{ overflow:hidden;}	
+.bottom_list li{
+	height:16px;
+	padding-left:17px;
+	padding-right:14px;
+	border-left:1px dotted #999;
+	margin-left:-1px;	
+	}
+.hd_b{
+	margin-bottom:15px;
+    position:relative;}	
+.bottom_b{
+	height:258px;
+	width:200px;
+	border:1px solid #ddd;
+	padding:12px 13px 13px;
+	margin-right:15px;}	
+.bottom_b h3{
+	font-size:14px;
+	color:#666;
+	margin-bottom:10px;}	
+.bottom_b i{
+	font-style:normal;
+	font-size:12px;
+	color:#999;
+	margin-top:17px;
+	}
+.bottom_b span{
+	background:url(../img/1.png) repeat-x;
+	width:64px;
+	height:20px;
+	color:#fff;
+	font-size:12px;
+	margin-top:13px;
+	line-height:20px;
+	text-align:center;}	
+.bottom_r{margin-right:0;}
+	
+	
+.foot{
+	height:310px;
+	width:1200px;
+	background:#f5f5f5;
+	border-top:1px solid #ddd;
+	padding:20px 10px;}	
+.foot .foot_top{
+	height:210px;
+	width:1180px;
+	background:red;}	
+	
+.foot .foot_top_div{
+	width:1160px;
+	height:30px;
+	border-bottom:1px solid #e6e6e6;
+	border-top:1px solid #e6e6e6;
+	margin-left:10px;
+	padding-right:10px;
+	}
+.foot_top_div ul li a{
+	margin-right:10px;
+	font-size:12px;
+	color:#666666;
+	line-height:30px;}	
+.foot_top_div span{
+	font-size:12px;
+	color:#666666;
+	line-height:30px;}	
+.foot p{
+	margin-top:16px;
+	color:#666;
+	font-size:12px;
+	line-height:22px;}	
+	
+.footer .footer_con{width:1200px; margin:0 auto; overflow:hidden;margin-top:30px;}
+.kefu{background:url(../img/footer1.png) no-repeat;padding-left:48px;margin-right:54px;}
+.kefu .p1{font-size:15px;font-weight:bold;}
+.kefu .p2{font-size:14px;margin:8px 0 12px 0;}
+.kefu .p3{font-size:12px;}
+.con_list{margin-right:56px;}
+h6{font-size:16px;margin-bottom:18px;}
+.footer_con .hs{margin-left:280px;}
+.con_list li{font-size:12px;margin:10px 0;}
+.atten ul .li10{background:url(../img/footer2.png) no-repeat;padding-left:19px;}
+.atten ul .li20{background:url(../img/footer3.png) no-repeat;padding-left:19px;}
+.atten ul .li30{background:url(../img/footer4.png) no-repeat;padding-left:19px;}	
+	
+	
+	
+	
+	
+	
+/*通用*/
+.wrap{ width:1200px; margin:0 auto; overflow:hidden; }
+.sidebar_list .colorf69{ color:#f69; }
+.mt20{ margin-top:20px; }
+.ml20{ margin-left:20px; }
+/*标题*/
+.hd{ border-bottom:1px solid #ccc; padding-bottom:6px; position:relative; }
+.wel_hd{ background:url(../img/wel_ico2.png) no-repeat; width:158px; height:26px; }
+
+.hd span{ color:#999; font-size:14px; margin-top:5px; border-left:1px dotted #ccc; margin-left:90px; padding-left:9px; } 
+.hd span b{ color:#666; }
+.hd a{ color:#999; font-size:14px; }
+.wel_hd_1{background:url(../img/wel_ico2.png) no-repeat 0 -240px; width:158px; height:23px; position:absolute;top:-5px; left:0; }
+.wel_hd_2{background:url(../img/wel_ico2.png) no-repeat 0 -44px; width:158px; height:23px; position:absolute;top:0px; left:0;}
+.wel_hd_3{background:url(../img/wel_ico2.png) no-repeat 0 -201px; width:158px; height:23px; position:absolute;top:0px; left:0;}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; }
+body{font-family:"Microsoft YaHei"}
+a{ text-decoration:none; color:#555; }
+li{ list-style:none; }
+.fl{ float:left; display:in-line; }
+.fr{ float:right; display:in-line; }
+img{ vertical-align:top; }
+textarea{ resize:none; }
+input,select,textarea{ outline:none; }
+img,input,select,textarea{ vertical-align:middle; }
+.clearFix:after{ content:""; display:block; clear:both; }
+.clearFix{ zoom:1; }
+
+.
