@@ -38,11 +38,11 @@ function   ($,move,fillZero,fontColor,rnd,a2d) {
 		$(this).append(oA);
 	})
 	$('.head_box li a').eq(0).attr('href','#');
-	$('.head_box li a').eq(5).attr({href:'layout/youKu/index.html',target:'_bank'});
-	$('.head_box li a').eq(6).attr({href:'layout/xiaoMi/index.html',target:'_bank'});
-	$('.head_box li a').eq(7).attr({href:'layout/meiLiShuo/index.html',target:'_bank'});
-	$('.head_box li a').eq(8).attr({href:'layout/v360/index.html',target:'_bank'});
-	$('.head_box li a').eq(9).attr({href:'layout/hunSha/index.html',target:'_bank'});
+	$('.head_box li a').eq(5).attr({href:'layout/youKu/index.html',target:'_blank'});
+	$('.head_box li a').eq(6).attr({href:'layout/xiaoMi/index.html',target:'_blank'});
+	$('.head_box li a').eq(7).attr({href:'layout/meiLiShuo/index.html',target:'_blank'});
+	$('.head_box li a').eq(8).attr({href:'layout/v360/index.html',target:'_blank'});
+	$('.head_box li a').eq(9).attr({href:'layout/hunSha/index.html',target:'_blank'});
 
 	$('.head_box li').hover(function()
 	{
